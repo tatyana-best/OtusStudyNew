@@ -12,5 +12,6 @@ for ($i=0; $i < 10; $i++) {
 echo "<pre>" .print_r($ar, true). "</pre>";
 
 dump($ar);
+sage($ar);
 
 require_once $_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php";
