@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c1c3794c-e844-41c8-9c06-3207f33877d8" name="OtusVMB" url="http://192.168.0.119">
+        <fileTransfer rootFolder="/home/bitrix/www" accessType="SFTP" host="192.168.0.119" port="22" sshConfigId="18f95ea1-f57f-4377-8438-5341176a1d26" sshConfig="root@192.168.0.119:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
